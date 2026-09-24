@@ -14,7 +14,7 @@
 #define HS_GET_MODE_PIN(state)            HS_GET_MODE_PIN_(state)
 #define HS_MODEIO_DETECTION_TIME          50
 #define HS_LBACK_TIMEOUT                  (30 * 1000)
-#define HS_SLEEP_TIMEOUT                  15000 // 15 seconds
+#define HS_SLEEP_TIMEOUT                  (10 * 60000) // 10 minutes
 
 enum modeio_mode {
     hs_none = 0,
